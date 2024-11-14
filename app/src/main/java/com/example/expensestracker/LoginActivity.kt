@@ -66,7 +66,7 @@ fun LoginScreen(context: Context, databaseHelper: UserDatabaseHelper) {
             fontSize = 36.sp,
             fontWeight = FontWeight.ExtraBold,
             fontFamily = FontFamily.Cursive,
-            color = Color.White,
+            color = Color.Black,
             text = "Login"
         )
         Spacer(modifier = Modifier.height(10.dp))
@@ -131,13 +131,13 @@ fun LoginScreen(context: Context, databaseHelper: UserDatabaseHelper) {
                 )
             )}
             )
-            { Text(color = Color.White,text = "Sign up") }
+            { Text(color = Color.Blue,text = "Sign up") }
             TextButton(onClick = {
             })
 
             {
                 Spacer(modifier = Modifier.width(60.dp))
-                Text(color = Color.White,text = "Forget password?")
+                Text(color = Color.Blue,text = "Forget password?")
             }
         }
     }

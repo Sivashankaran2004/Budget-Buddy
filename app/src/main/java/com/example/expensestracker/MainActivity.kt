@@ -110,7 +110,7 @@ fun MainPage() {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
 
-        Text(text = "Welcome To Expense Tracker", fontSize = 42.sp, fontWeight = FontWeight.Bold,
+        Text(text = "Welcome To Budget Buddy", fontSize = 42.sp, fontWeight = FontWeight.Bold,
         textAlign = TextAlign.Center)
 
         Image(painterResource(id = R.drawable.img_1), contentDescription ="", modifier = Modifier.size(height = 500.dp, width = 500.dp))

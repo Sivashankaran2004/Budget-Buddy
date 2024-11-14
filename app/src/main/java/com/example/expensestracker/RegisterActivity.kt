@@ -68,7 +68,7 @@ fun RegistrationScreen(context: Context, databaseHelper: UserDatabaseHelper) {
             fontSize = 36.sp,
             fontWeight = FontWeight.ExtraBold,
             fontFamily = FontFamily.Cursive,
-            color = Color.White,
+            color = Color.Black,
             text = "Register"
         )
 
